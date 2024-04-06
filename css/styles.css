@@ -75,10 +75,7 @@ img {
   color: #4d5ae5;
   width: 115px;
   height: 24px;
-  padding-top: 24px;
-  padding-right: 76px;
-  padding-bottom: 24px;
-  padding-left: 156px;
+  padding: 24px 0;
 }
 
 .header-logo-span {
