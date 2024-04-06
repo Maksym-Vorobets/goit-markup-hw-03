@@ -30,7 +30,6 @@ img {
 }
 
 .container {
-  display: flex;
   max-width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
@@ -43,6 +42,7 @@ img {
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+/* header */
 
 .header {
   width: 1440px;
@@ -65,6 +65,7 @@ img {
 }
 
 .header-logo {
+  padding: 24px 0;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -75,7 +76,6 @@ img {
   color: #4d5ae5;
   width: 115px;
   height: 24px;
-  padding: 24px 0;
 }
 
 .header-logo-span {
@@ -104,6 +104,7 @@ img {
   font-style: normal;
 }
 .header-address-list {
+  padding: 24px 0;
   display: flex;
   gap: 40px;
 }
@@ -167,8 +168,16 @@ img {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .solution-list {
