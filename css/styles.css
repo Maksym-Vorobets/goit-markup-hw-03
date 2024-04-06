@@ -46,6 +46,10 @@ img {
   align-items: center;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-box {
   display: flex;
   background-color: #404bbf;
