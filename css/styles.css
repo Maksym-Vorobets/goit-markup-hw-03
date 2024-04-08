@@ -43,6 +43,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
@@ -60,16 +61,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  width: 115px;
-  height: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .header-logo-span {
   color: #2e2f42;
+  align-items: center;
 }
 
 .header-menu-list {
-  padding: 24px 0;
   display: flex;
   gap: 40px;
 }
@@ -92,10 +93,12 @@ img {
 }
 .header-address {
   font-style: normal;
+  margin-left: 332px;
+  align-items: center;
 }
 
 .header-address-list {
-  padding-right: 156px;
+  margin-left: auto;
   display: flex;
   gap: 40px;
 }
@@ -123,7 +126,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-top: 188px;
   margin-left: auto;
   margin-right: auto;
 }
