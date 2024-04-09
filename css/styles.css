@@ -80,17 +80,22 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .header-menu-link {
   padding: 24px 0;
+  color: #2e2f42;
 }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
 }
+
+.header-menu-active:active {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
   margin-left: 332px;
